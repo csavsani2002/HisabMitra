@@ -380,7 +380,7 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="mailto:hello@hisabmitra.app"
+                href="mailto:chintan.savsani2002@gmail.com"
                 className="focus-ring rounded-sm bg-thread px-6 py-3 font-body text-sm font-semibold text-paper transition hover:bg-thread/90"
               >
                 Request a demo
@@ -421,7 +421,8 @@ export default function Home() {
               <ul className="space-y-2">
                 <li><a className="focus-ring hover:text-paper" href="/privacy">Privacy Policy</a></li>
                 <li><a className="focus-ring hover:text-paper" href="/terms">Terms of Service</a></li>
-                <li><a className="focus-ring hover:text-paper" href="mailto:hello@hisabmitra.app">Contact Us</a></li>
+                <li><a className="focus-ring hover:text-paper" href="/delete-account">Delete Account</a></li>
+                <li><a className="focus-ring hover:text-paper" href="mailto:chintan.savsani2002@gmail.com">Contact Us</a></li>
               </ul>
             </div>
           </div>
