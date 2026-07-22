@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const features = [
   {
     title: 'Billing & transactions',
@@ -105,26 +103,6 @@ export default function Home() {
   return (
     <main className="relative overflow-hidden">
       <div className="thread-spine hidden sm:block" aria-hidden="true" />
-
-      {/* NAV */}
-      <header className="relative z-10 border-b border-paper/10">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 pl-16 md:pl-24">
-          <span className="font-display text-lg font-semibold tracking-tight text-paper">
-            Hisab<span className="text-thread">Mitra</span>
-          </span>
-          <nav className="hidden gap-8 font-body text-sm text-paperdim md:flex">
-            <a className="focus-ring hover:text-paper" href="#features">Features</a>
-            <a className="focus-ring hover:text-paper" href="#who-its-for">Who it&rsquo;s for</a>
-            <a className="focus-ring hover:text-paper" href="#faq">FAQ</a>
-          </nav>
-          <Link
-            href="#cta"
-            className="focus-ring rounded-sm border border-brass/40 px-4 py-2 font-body text-sm text-brass transition hover:bg-brass/10"
-          >
-            Request demo
-          </Link>
-        </div>
-      </header>
 
       {/* HERO */}
       <section className="relative z-10 pl-16 pr-6 pt-16 md:pl-24 md:pr-12 md:pt-24">
@@ -395,42 +373,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* FOOTER */}
-      <footer className="relative z-10 border-t border-paper/10 pb-10 pl-16 pr-6 pt-10 md:pl-24 md:pr-12">
-        <div className="mx-auto flex max-w-6xl flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
-          <div>
-            <span className="font-display text-lg font-semibold text-paper">
-              Hisab<span className="text-thread">Mitra</span>
-            </span>
-            <p className="mt-2 max-w-xs font-body text-sm text-paperdim">
-              Your accounting friend for modern Indian business.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 gap-10 font-body text-sm text-paperdim sm:flex sm:gap-16">
-            <div>
-              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-brass">Menu</p>
-              <ul className="space-y-2">
-                <li><a className="focus-ring hover:text-paper" href="#features">Features</a></li>
-                <li><a className="focus-ring hover:text-paper" href="#who-its-for">Who it&rsquo;s for</a></li>
-                <li><a className="focus-ring hover:text-paper" href="#faq">FAQ</a></li>
-              </ul>
-            </div>
-            <div>
-              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-brass">Legal</p>
-              <ul className="space-y-2">
-                <li><a className="focus-ring hover:text-paper" href="/privacy">Privacy Policy</a></li>
-                <li><a className="focus-ring hover:text-paper" href="/terms">Terms of Service</a></li>
-                <li><a className="focus-ring hover:text-paper" href="/delete-account">Delete Account</a></li>
-                <li><a className="focus-ring hover:text-paper" href="mailto:chintan.savsani2002@gmail.com">Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <p className="mx-auto mt-10 max-w-6xl font-mono text-xs text-paperdim">
-          © 2026 HisabMitra. All rights reserved.
-        </p>
-      </footer>
     </main>
   );
 }

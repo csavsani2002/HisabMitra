@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service — Chokho Hisab',
+  title: 'Terms of Service — HisabMitra',
   description:
-    'Terms and conditions for using the Chokho Hisab mobile accounting app by Sunray Datalinks.',
+    'Terms and conditions for using the HisabMitra mobile accounting app by Sunray Datalinks.',
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -18,21 +18,21 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 export default function TermsPage() {
   return (
-    <main className="mx-auto max-w-2xl px-6 py-24">
+    <main className="mx-auto max-w-2xl px-6 py-16">
       <h1 className="font-display text-3xl text-paper">Terms of Service</h1>
       <p className="mt-3 font-body text-sm text-paperdim">Last updated: 30 June 2026</p>
 
       <Section title="Acceptance">
         <p>
-          These terms are an agreement between you and Sunray Datalinks for the use of the Chokho
-          Hisab app. By creating an account or using the app, you agree to these terms. If you do
+          These terms are an agreement between you and Sunray Datalinks for the use of the
+          HisabMitra app. By creating an account or using the app, you agree to these terms. If you do
           not agree, please do not use the app.
         </p>
       </Section>
 
       <Section title="The service">
         <p>
-          Chokho Hisab helps small businesses keep accounts — udhar, mahina khata, cash book,
+          HisabMitra helps small businesses keep accounts — udhar, mahina khata, cash book,
           reports, and related features. We offer a free plan (Saathi) and a paid plan (Pragati).
           Features may change as we improve the app.
         </p>
@@ -48,7 +48,7 @@ export default function TermsPage() {
 
       <Section title="Acceptable use">
         <p>
-          Use Chokho Hisab only for lawful business purposes. Do not misuse the app, attempt to
+          Use HisabMitra only for lawful business purposes. Do not misuse the app, attempt to
           break its security, or use it to harm others. We may suspend accounts that break these
           terms.
         </p>
@@ -77,7 +77,7 @@ export default function TermsPage() {
 
       <Section title="Disclaimers">
         <p>
-          Chokho Hisab is a record-keeping tool, not professional accounting, tax, or legal advice.
+          HisabMitra is a record-keeping tool, not professional accounting, tax, or legal advice.
           You are responsible for the accuracy of what you enter and for your own compliance. The
           app is provided &quot;as is&quot;, and we do not guarantee it will be uninterrupted or
           error-free.
@@ -93,7 +93,7 @@ export default function TermsPage() {
 
       <Section title="Termination">
         <p>
-          You can stop using Chokho Hisab and delete your account at any time. We may suspend or
+          You can stop using HisabMitra and delete your account at any time. We may suspend or
           end access if these terms are broken or if needed to protect the service and its users.
         </p>
       </Section>
@@ -111,10 +111,6 @@ export default function TermsPage() {
           the date above. Continued use of the app means you accept the updated terms.
         </p>
       </Section>
-
-      <a href="/" className="mt-10 inline-block font-body text-sm text-brass">
-        ← Back home
-      </a>
     </main>
   );
 }

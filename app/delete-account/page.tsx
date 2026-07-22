@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How Account Deletion Works — Chokho Hisab',
+  title: 'How Account Deletion Works — HisabMitra',
   description:
-    'How to permanently delete your Chokho Hisab account and associated khata data from the app.',
+    'How to permanently delete your HisabMitra account and associated khata data from the app.',
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -18,7 +18,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 export default function DeleteAccountPage() {
   return (
-    <main className="mx-auto max-w-2xl px-6 py-24">
+    <main className="mx-auto max-w-2xl px-6 py-16">
       <h1 className="font-display text-3xl text-paper">How account deletion works</h1>
       <p className="mt-3 font-body text-sm text-paperdim">Last updated: 30 June 2026</p>
 
@@ -31,13 +31,8 @@ export default function DeleteAccountPage() {
 
       <Section title="Delete your account from the app">
         <p>
-          You can permanently delete your Chokho Hisab account and all associated khata data
+          You can permanently delete your HisabMitra account and all associated khata data
           directly from the app, without calling us or filling out any form.
-        </p>
-        <p>
-          <strong className="text-paper">Steps:</strong> Open Chokho Hisab → Settings → scroll to
-          Account → tap &quot;Delete Account&quot; → confirm by tapping &quot;Delete Account&quot;
-          again in the dialog.
         </p>
       </Section>
 
@@ -62,17 +57,13 @@ export default function DeleteAccountPage() {
         <p>
           If you no longer have access to the app but want your account and data deleted, email us
           at{' '}
-          <a href="mailto:support@sunraydatalinks.com" className="text-brass hover:underline">
-            support@sunraydatalinks.com
+          <a href="mailto:chintan.savsani2002@gmail.com" className="text-brass hover:underline">
+            chintan.savsani2002@gmail.com
           </a>{' '}
           from the email or with the mobile number linked to your account, and we will process the
           deletion request.
         </p>
       </Section>
-
-      <a href="/" className="mt-10 inline-block font-body text-sm text-brass">
-        ← Back to home
-      </a>
     </main>
   );
 }

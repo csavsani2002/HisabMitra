@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — Chokho Hisab',
+  title: 'Privacy Policy — HisabMitra',
   description:
-    'How Chokho Hisab handles your account, business records, backups, and device information.',
+    'How HisabMitra handles your account, business records, backups, and device information.',
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -17,19 +17,19 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 export default function PrivacyPage() {
   return (
-    <main className="mx-auto max-w-2xl px-6 py-24">
+    <main className="mx-auto max-w-2xl px-6 py-16">
       <h1 className="font-display text-3xl text-paper">Privacy Policy</h1>
       <p className="mt-3 font-body text-sm text-paperdim">Last updated: 30 June 2026</p>
 
       <Section title="Introduction">
         <p>
-          Chokho Hisab is a mobile accounting app made by Sunray Datalinks (&quot;we&quot;,
+          HisabMitra is a mobile accounting app made by Sunray Datalinks (&quot;we&quot;,
           &quot;us&quot;, or &quot;our&quot;). This Privacy Policy explains what information the app
           handles, why we handle it, and the choices you have. We have tried to keep it simple
           and easy to understand.
         </p>
         <p>
-          Chokho Hisab is an offline-first application. Your business books are created and
+          HisabMitra is an offline-first application. Your business books are created and
           stored on your own device. We only collect and process the limited information required
           to create your account, provide backup and synchronization, enable paid features, and
           improve the reliability of our services.
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
         <p>
           For business analytics and service improvement, we may use limited account information
           such as your mobile number, business name, and business category. This helps us
-          understand the types of businesses using Chokho Hisab, improve our services, and
+          understand the types of businesses using HisabMitra, improve our services, and
           communicate relevant updates or offers to appropriate groups of users. We do not use or
           analyze your customers, entries, bills, transactions, reports, or any other business
           records for these purposes, and we do not share them with third parties for marketing
@@ -159,14 +159,14 @@ export default function PrivacyPage() {
 
       <Section title="Children's Privacy">
         <p>
-          Chokho Hisab is intended for business owners and is not directed toward children under
+          HisabMitra is intended for business owners and is not directed toward children under
           the age of 13. We do not knowingly collect personal information from children.
         </p>
       </Section>
 
       <Section title="Changes to This Privacy Policy">
         <p>
-          We may update this Privacy Policy as Chokho Hisab evolves. Any updates will be published
+          We may update this Privacy Policy as HisabMitra evolves. Any updates will be published
           here with a revised effective date. If significant changes are made, we will notify
           users through the application whenever appropriate.
         </p>
@@ -179,10 +179,6 @@ export default function PrivacyPage() {
         </a>
         .
       </p>
-
-      <a href="/" className="mt-8 inline-block font-body text-sm text-brass">
-        ← Back home
-      </a>
     </main>
   );
 }
